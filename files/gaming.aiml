@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+  <pattern>TELL ME ABOUT THE HISTORY OF GAMING</pattern>
+  <template>Gaming began in the 1950s with simple games like Tic-Tac-Toe. The first hit was Pong in 1972.</template>
+</category>
+
+<category>
+  <pattern>TELL ME ABOUT THE HISTORY OF GAMING *</pattern>
+  <template><srai>TELL ME ABOUT THE HISTORY OF GAMING</srai></template>
+</category>
+
+<!-- Past Gaming Consoles -->
+<category>
+  <pattern>WHAT WAS THE FIRST GAMING CONSOLE</pattern>
+  <template>The Magna vox Odyssey, released in 1972.</template>
+</category>
+
+<category>
+  <pattern>WHAT WAS THE FIRST GAMING CONSOLE *</pattern>
+  <template><srai>WHAT WAS THE FIRST GAMING CONSOLE</srai></template>
+</category>
+
+<category>
+  <pattern>WHAT CAN YOU TELL ME ABOUT THE NINTENDO ENTERTAINMENT SYSTEM</pattern>
+  <template>The NES was released in 1985, with games like Super Mario Bros and Zelda.</template>
+</category>
+
+<category>
+  <pattern>WHAT CAN YOU TELL ME ABOUT THE NINTENDO ENTERTAINMENT SYSTEM *</pattern>
+  <template><srai>WHAT CAN YOU TELL ME ABOUT THE NINTENDO ENTERTAINMENT SYSTEM</srai></template>
+</category>
+
+<category>
+  <pattern>WHEN WAS THE SEGA GENESIS RELEASED</pattern>
+  <template>Released in 1988 in Japan, and 1989 in North America.</template>
+</category>
+
+<category>
+  <pattern>WHEN WAS THE SEGA GENESIS RELEASED *</pattern>
+  <template><srai>WHEN WAS THE SEGA GENESIS RELEASED</srai></template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE BEST-SELLING CONSOLE OF ALL TIME</pattern>
+  <template>The PlayStation 2 with over 155 million units sold.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE BEST-SELLING CONSOLE OF ALL TIME *</pattern>
+  <template><srai>WHAT IS THE BEST-SELLING CONSOLE OF ALL TIME</srai></template>
+</category>
+
+<!-- Past Gaming Culture -->
+<category>
+  <pattern>WHAT WAS ARCADE GAMING LIKE IN THE 1980S</pattern>
+  <template>Arcades were a social hub with games like Pac-Man and Space Invaders.</template>
+</category>
+
+<category>
+  <pattern>WHAT WAS ARCADE GAMING LIKE IN THE 1980S *</pattern>
+  <template><srai>WHAT WAS ARCADE GAMING LIKE IN THE 1980S</srai></template>
+</category>
+
+<category>
+  <pattern>WHAT WAS THE VIDEO GAME CRASH OF 1983</pattern>
+  <template>A crash due to market saturation, leading to Nintendo's dominance.</template>
+</category>
+
+<category>
+  <pattern>WHAT WAS THE VIDEO GAME CRASH OF 1983 *</pattern>
+  <template><srai>WHAT WAS THE VIDEO GAME CRASH OF 1983</srai></template>
+</category>
+
+<category>
+  <pattern>WHO ARE SOME LEGENDARY GAMING DEVELOPERS FROM THE PAST</pattern>
+  <template>Shigeru Miyamoto (Mario, Zelda) and Hideo Kojima (Metal Gear).</template>
+</category>
+
+<category>
+  <pattern>WHO ARE SOME LEGENDARY GAMING DEVELOPERS FROM THE PAST *</pattern>
+  <template><srai>WHO ARE SOME LEGENDARY GAMING DEVELOPERS FROM THE PAST</srai></template>
+</category>
+
+<!-- Gaming Companies -->
+<category>
+  <pattern>WHEN WAS NINTENDO FOUNDED</pattern>
+  <template>Nintendo was founded in 1889 as a playing card company.</template>
+</category>
+
+<category>
+  <pattern>WHEN WAS NINTENDO FOUNDED *</pattern>
+  <template><srai>WHEN WAS NINTENDO FOUNDED</srai></template>
+</category>
+
+<category>
+  <pattern>WHEN DID SONY ENTER THE GAMING INDUSTRY</pattern>
+  <template>Sony entered with PlayStation in 1994.</template>
+</category>
+
+<category>
+  <pattern>WHEN DID SONY ENTER THE GAMING INDUSTRY *</pattern>
+  <template><srai>WHEN DID SONY ENTER THE GAMING INDUSTRY</srai></template>
+</category>
+
+<!-- Tricky/Uncommon Questions -->
+<category>
+  <pattern>WHAT IS THE RAREST GAME OF ALL TIME</pattern>
+  <template>Stadium Events for NES, worth tens of thousands.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE RAREST GAME OF ALL TIME *</pattern>
+  <template><srai>WHAT IS THE RAREST GAME OF ALL TIME</srai></template>
+</category>
+
+<category>
+  <pattern>WHAT WAS THE FIRST GAME WITH A SAVE FEATURE</pattern>
+  <template>The Legend of Zelda on the NES, 1986.</template>
+</category>
+
+<category>
+  <pattern>WHAT WAS THE FIRST GAME WITH A SAVE FEATURE *</pattern>
+  <template><srai>WHAT WAS THE FIRST GAME WITH A SAVE FEATURE</srai></template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE HIGHEST SCORE EVER RECORDED IN PAC-MAN</pattern>
+  <template>3,333,360 points, a perfect game.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE HIGHEST SCORE EVER RECORDED IN PAC-MAN *</pattern>
+  <template><srai>WHAT IS THE HIGHEST SCORE EVER RECORDED IN PAC-MAN</srai></template>
+</category>
+
+<!-- Handling Unexpected or Tricky Questions -->
+<category>
+  <pattern>WHO WAS THE MOST INFLUENTIAL CHARACTER IN GAMING HISTORY</pattern>
+  <template>Many say Mario, but Link and Lara Croft are also iconic.</template>
+</category>
+
+<category>
+  <pattern>WHO WAS THE MOST INFLUENTIAL CHARACTER IN GAMING HISTORY *</pattern>
+  <template><srai>WHO WAS THE MOST INFLUENTIAL CHARACTER IN GAMING HISTORY</srai></template>
+</category>
+
+<category>
+  <pattern>WHY DID SEGA STOP MAKING CONSOLES</pattern>
+  <template>After the Dreamcast's failure, Sega switched to game development.</template>
+</category>
+
+<category>
+  <pattern>WHY DID SEGA STOP MAKING CONSOLES *</pattern>
+  <template><srai>WHY DID SEGA STOP MAKING CONSOLES</srai></template>
+</category>
+
+<category>
+  <pattern>WHAT HAPPENED TO ATARI</pattern>
+  <template>Atari struggled post-1983 crash but remains a nostalgic name.</template>
+</category>
+
+<category>
+  <pattern>WHAT HAPPENED TO ATARI *</pattern>
+  <template><srai>WHAT HAPPENED TO ATARI</srai></template>
+</category>
+
+
+</aiml>

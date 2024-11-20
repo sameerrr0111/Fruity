@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <category>
+      <pattern>WELCOME LINES</pattern>
+        <template><random>
+        <li>Hello!!</li>    
+        <li>Hello Buddy!</li>    
+        <li>Hi Friend!</li>    
+        </random></template>
+  </category>  
+  
+  <category>
+      <pattern>GREETING LINES</pattern>
+      <template><random>
+          <li>! Great to see you here!</li>
+          <li>! Hope you're having a wonderful day!</li>
+          <li>! Let me know if you need any help.</li>
+          <li>! Let me know if you need any help.</li>
+          <li>! I'm here to answer your questions.</li>
+      </random></template>
+  </category>
+  
+  
+  <category>
+      <pattern>BOT INTRO</pattern>
+      <template><random>
+          <li>Hello! I'm Bella, your round-the-clock helper, ready to assist and brighten your day!</li>
+          <li>Hey there! I'm Bella, your 24/7 assistant, here to help you tackle anything with a smile!</li>
+          <li>Hi! I'm Bella, your all-day, all-night assistant, let’s make your tasks a breeze!</li>
+          <li>Greetings! I'm Bella, your always, on assistant, here to help and keep things light!</li>
+          <li>Hiya! I'm Bella, your 24/7 buddy, here to assist you and share a giggle or two!</li>
+      </random></template>
+  </category>
+  
+  <category>
+      <pattern>BOT INTRO WITHOUT HI</pattern>
+      <template><random>
+          <li>I’m Bella, ready to help with anything you need!</li>
+          <li>I’m Bella, your go-to for questions and quick fixes!</li>
+          <li>I’m Bella, here to solve problems and keep it simple!</li>
+          <li>I’m Bella, always online and ready to assist!</li>
+          <li>I’m Bella, let’s tackle whatever you’ve got!</li>
+      </random></template>
+  </category>
+  
+  
+  <category>
+      <pattern>BOT CONDITION</pattern>
+      <template><random>
+          <li>I'm Good!</li>
+          <li>Doing Great!!</li>
+          <li>Having good day!</li>
+      </random></template>
+  </category>
+  
+  <category>
+      <pattern>BOT HELP REPLIES</pattern>
+      <template><random>
+          <li>I’m here to assist with any questions or tasks you have, just ask away!</li>
+          <li>From solving problems to providing fun facts, I’m your go-to helper. Let’s get started!</li>
+          <li>Think of me as your personal assistant, ready to help 24/7. What can I do for you today?</li>
+      </random></template>
+  </category>
+
+ <category>
+      <pattern>HI</pattern>
+        <template><srai>WELCOME LINES</srai></template>
+  </category>
+  
+  <category>
+      <pattern>HELLO</pattern>
+        <template><srai>WELCOME LINES</srai></template>
+  </category>
+  
+  <category>
+      <pattern>HI *</pattern>
+        <template><srai>WELCOME LINES</srai></template>
+  </category>
+  
+  <category>
+      <pattern>HELLO *</pattern>
+        <template><srai>WELCOME LINES</srai></template>
+  </category>
+  
+<category>
+      <pattern>WHAT IS YOUR NAME *</pattern>
+        <template>
+            <srai>BOT INTRO</srai>
+        </template>
+  </category>  
+ 
+  <category>
+    <pattern>WHAT IS YOUR NAME *</pattern>
+    <that>*WELCOME LINES*</that>
+    <template>
+      <srai>BOT INTRO WITHOUT HI</srai>
+    </template>
+  </category> 
+ 
+  
+  <category>
+      <pattern>HOW ARE YOU *</pattern>
+        <template>
+            <srai>BOT CONDITION</srai>
+        </template>
+  </category> 
+  
+  <category>
+      <pattern>HOW CAN YOU HELP ME *</pattern>
+        <template>
+            <srai>BOT HELP REPLIES</srai>
+            </template>
+  </category> 
+  
+
+</aiml>
